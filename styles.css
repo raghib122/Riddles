@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
 
 body {
     font-family: Arial, sans-serif;
@@ -70,10 +71,10 @@ h1 {
 }
 
 .riddle-block {
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     border-radius: 5px;
     padding: 10px;
-    background-color: #FFDEE9;
+    /* background-color: #FFDEE9; */
 }
 
 .riddle-block h2 {
@@ -87,13 +88,16 @@ h1 {
 }
 
 h2 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Slab', serif;
 }
 
 p {
-    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Dancing Script', cursive; */
     font-size: 22px;
-    color: indianred;
+    color: blue;
+}
+.ans{
+    color: gray;
 }
 
 /* Style the answer section */
