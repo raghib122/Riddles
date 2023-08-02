@@ -42,7 +42,7 @@ function displayRiddles(riddles) {
         answerElement.style.display = 'none'; 
 
         const toggleButton = document.createElement('button');
-        toggleButton.textContent = 'View Answer';
+        toggleButton.textContent = ' Answer';
         toggleButton.addEventListener('click', () => toggleAnswerVisibility(answerElement));
 
         riddleBlock.appendChild(titleElement);
